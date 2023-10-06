@@ -4,6 +4,12 @@ This is a simple all-in-one-view demo using the [Vaadin AI Form Filler](https://
 
 ## Running the application
 
+This project relies on OpenAI API access. You will have to add your API key, for instance in the terminal before starting the project:
+
+```export OPENAI_TOKEN="your-api-key-here"```
+
+Refer to the [AI Form Filler documentation](https://vaadin.com/docs/latest/tools/ai-form-filler) for more options and information.
+
 The project is a standard Maven project. To run it from the command line,
 type `mvnw` (Windows), or `./mvnw` (Mac & Linux), then open
 http://localhost:8080 in your browser.
